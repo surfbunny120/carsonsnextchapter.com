@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="container">
+  <h1 class="site-title">{{ site.title }}</h1>
+  <p class="tagline">{{ site.description }}</p>
+
+  <section class="sections">
+    <h2>The Plan</h2>
+    {% for section in site.sections %}
+    <a href="{{ section.page | relative_url }}" class="link-block">
+      {{ section.title }}
+    </a>
+    {% endfor %}
+  </section>
+
+  <div class="footer">
+    <p>Researched and compiled for the Carson family &middot; May 2026</p>
+  </div>
+</div>

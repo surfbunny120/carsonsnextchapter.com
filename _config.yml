@@ -1,0 +1,25 @@
+title: "Carson's Next Chapter"
+description: "A family strategy for resilience, adventure, and the long game."
+url: "https://carsonsnextchapter.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+# Sections
+sections:
+  - title: "Why the PNW"
+    page: "/why-pnw"
+  - title: "Portland"
+    page: "/portland"
+  - title: "Sailing & Baja"
+    page: "/sailing"
+  - title: "Alaska Plan"
+    page: "/alaska"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
