@@ -10,6 +10,8 @@ plugins:
 
 # Sections
 sections:
+  - title: "Overarching Considerations"
+    page: "/overarching-considerations"
   - title: "Why the PNW"
     page: "/why-pnw"
   - title: "Portland"
