@@ -20,6 +20,8 @@ sections:
     page: "/sailing"
   - title: "Alaska Plan"
     page: "/alaska"
+  - title: "Kate"
+    page: "/kate"
 
 exclude:
   - Gemfile
